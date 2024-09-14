@@ -1,0 +1,24 @@
+.parent{
+    background-color: yellow;
+    padding: 10px;
+    display:flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: column wrap ;
+    justify-content: flex-end;
+
+}
+.parent div{
+    margin: 10px;
+    padding: 10px;
+}
+.item1{
+    background-color: blue;
+}
+.item2{
+    background-color: brown;
+
+}
+.item3{
+    background-color: aqua;
+}
